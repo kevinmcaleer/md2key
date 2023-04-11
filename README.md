@@ -37,7 +37,7 @@ AttributeError: module 'collections' has no attribute 'Container'
 This can be fixed by editing the `/lib/python3.10/site-packages/pptx/compat/__init__.py` and adding the line:
 
 ``` python
-import collections.abc.container
+import collections.abc
 ```
 
 ---
