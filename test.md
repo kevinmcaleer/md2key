@@ -1,24 +1,13 @@
-# This is a main heading
+# This is the first slide
 
 ## this is a subtitle
 
 * some text 1
 * some text 2
 * some text 3
+  * indented text
 
-***
-
----
-
-## this is another subtitle
-
-* some text 4
-* some text 5
-* some text 6
-
----
-
-# This is another main heading
+# This is the second slide
 
 **A table**
 
