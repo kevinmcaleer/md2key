@@ -4,11 +4,27 @@ This program converts simple markdown files into powerpoint presentations (that 
 
 Includes support for tables too.
 
-## How to use
+## Dependencies
+
+* You'll need to install the `python-pptx`, `markdown` and `beautiful soup` libraries.
 
 ``` bash
 pip install python-pptx markdown bs4
 ```
+
+---
+
+## How to use
+
+Run the program with two parameters; the name of the markdown file and the name of the file to output to:
+
+``` bash
+python md2pptx test.md test.pptx
+```
+
+You can then open the `test.pptx` file in your favourite presentation software and apply a theme of your choosing.
+
+---
 
 ## Troubleshooting
 
